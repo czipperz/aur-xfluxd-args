@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo cp xfluxd-args.conf /etc/xfluxd-args.conf
+sudo cp xfluxd-args.service /usr/lib/systemd/user/xfluxd-args.service
+
+echo 'Edit /etc/xfluxd-args.conf to configure the program'
